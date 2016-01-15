@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Rezarr</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_linear_layout">LinearLayout</string>
+    <string name="title_activity_table_layout">TableLayout</string>
+    <string name="title_activity_grid_layout">GridLayout</string>
+    <string name="title_activity_relative_layout">RelativeLayout</string>
+    <string name="title_activity_form_component">FormComponent</string>
+    <string name="title_activity_edit_text">EditText</string>
+    <string name="title_activity_contoh_radio">ContohRadio</string>
+    <string name="title_activity_contoh_box">ContohBox</string>
+    <string name="title_activity_aler_dialok">AlerDialok</string>
+    <string name="title_activity_kiss_view">KissView</string>
+    <string name="title_activity_imeg_piew">ImegPiew</string>
+    <string name="title_activity_inten_workplow">IntenWorkplow</string>
+    <string name="title_activity_inten_workplowdua">IntenWorkplowdua</string>
+    <string name="title_activity_frakmen">Frakmen</string>
+    <string name="title_activity_frakment_satu">FrakmentSatu</string>
+    <string name="title_activity_frakment_dua">FrakmentDua</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_frakment">Frakment</string>
+</resources>
