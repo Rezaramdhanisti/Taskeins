@@ -26,11 +26,11 @@ public class DuaFrakment extends Fragment {
         TextView name_obj = (TextView)view.findViewById(R.id.tv_name_val);
         TextView email_obj = (TextView)view.findViewById(R.id.tv_email_val);
         Bundle bundle = getArguments();
-        if (bundle !=null) {
-            if (bundle.containsKey("name")) {
+        if (bundle != null )    {
+            if (bundle.containsKey("name"))    {
                 name_obj.setText("Name : " + bundle.getString("name"));
             }
-                if (bundle.containsKey("email")) {
+                if (bundle.containsKey("email"))    {
                     email_obj.setText("Email : " + bundle.getString("email"));
                 }
         }

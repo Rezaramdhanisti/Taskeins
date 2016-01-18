@@ -11,18 +11,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.rezarizki.rezarr.Frakment"
-    tools:showIn="@layout/activity_frakment">
+    tools:showIn="@layout/activity_frakment"
+    android:background="#ffffff">
 
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/fragment_place"
-        android:name="com.rezarizki.rezarr.SatuFragment"
+        android:name="com.rezarizki.rezarr.SatuFrakment"
 
         ></fragment>
     <Button
+        style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DuaFragment"
-        android:id="@+id/btn_frag_two"/>
+        android:text="Sign Up"
+        android:id="@+id/btn_frag_two"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="112dp"/>
 </RelativeLayout>

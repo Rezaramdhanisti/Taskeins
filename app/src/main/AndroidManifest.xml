@@ -82,7 +82,16 @@
             android:name=".Frakment"
             android:label="@string/title_activity_frakment"
             android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".ActivityViewPager"
+            android:label="@string/title_activity_activity_view_pager"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
 
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
     </application>
 

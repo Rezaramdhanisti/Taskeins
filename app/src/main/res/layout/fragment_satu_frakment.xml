@@ -7,17 +7,21 @@
 
   <FrameLayout
       android:layout_width="match_parent"
-      android:layout_height="match_parent">
+      android:layout_height="match_parent"
+      android:background="#17daca">
 
       <EditText
           android:id="@+id/txt_name"
-          android:layout_width="wrap_content"
+          android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:hint="name"/>
+
       <EditText
-          android:layout_width="wrap_content"
+          android:id="@+id/txt_email"
+          android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:hint="email"/>
+          android:hint="email"
+          android:layout_gravity="left|center_vertical"/>
   </FrameLayout>
 
 </RelativeLayout>
