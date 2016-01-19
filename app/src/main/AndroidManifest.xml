@@ -2,6 +2,8 @@
 <manifest package="com.rezarizki.rezarr"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -96,6 +98,11 @@
         <activity
             android:name=".Asyncnan"
             android:label="@string/title_activity_asyncnan"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".HALLUCINATION"
+            android:label="@string/title_activity_httpurlconnection"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
