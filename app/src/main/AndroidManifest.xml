@@ -92,6 +92,11 @@
             android:name=".JSON"
             android:label="@string/title_activity_json"
             android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Asyncnan"
+            android:label="@string/title_activity_asyncnan"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
