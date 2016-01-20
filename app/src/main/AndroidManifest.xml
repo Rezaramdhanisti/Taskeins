@@ -104,6 +104,11 @@
             android:name=".HALLUCINATION"
             android:label="@string/title_activity_httpurlconnection"
             android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".OGSON"
+            android:label="@string/title_activity_ogson"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

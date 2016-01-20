@@ -26,4 +26,5 @@
     <string name="title_activity_json">JSON</string>
     <string name="title_activity_asyncnan">Asyncnan</string>
     <string name="title_activity_httpurlconnection">HTTPURLCONNECTION</string>
+    <string name="title_activity_ogson">OGSON</string>
 </resources>
