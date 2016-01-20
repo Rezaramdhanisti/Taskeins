@@ -24,7 +24,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class OGSON extends AppCompatActivity {
+public class Ogson extends AppCompatActivity {
 Button btn_request;
     TextView lbl_http_connection;
     HttpURLConnection connection = null;
