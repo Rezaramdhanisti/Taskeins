@@ -28,4 +28,8 @@
     <string name="title_activity_httpurlconnection">HTTPURLCONNECTION</string>
     <string name="title_activity_ogson">OGSON</string>
     <string name="title_activity_retrofit">Retrofit</string>
+    <string name="title_activity_squidwerd">Squidwerd</string>
+    <string name="title_activity_tasksatu">Tasksatu</string>
+    <string name="title_activity_jawadua">Jawadua</string>
+    <string name="title_activity_jawasatu">jawasatu</string>
 </resources>

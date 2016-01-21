@@ -114,11 +114,31 @@
             android:name=".Kaolin"
             android:label="@string/title_activity_retrofit"
             android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Squidwerd"
+            android:label="@string/title_activity_squidwerd"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Tasksatu"
+            android:label="@string/title_activity_tasksatu"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Jawadua"
+            android:label="@string/title_activity_jawadua"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".jawasatu"
+            android:label="@string/title_activity_jawasatu"
+            android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>
 
