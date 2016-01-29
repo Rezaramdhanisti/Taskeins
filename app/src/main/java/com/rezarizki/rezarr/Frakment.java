@@ -28,7 +28,7 @@ Button btn_frag_two;
         btn_frag_two.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (v == findViewById(R.id.btn_frag_two)) {
+                if (v.getId() == findViewById(R.id.btn_frag_two)) {
                     Fragment fragment = new DuaFrakment();
                     FragmentManager fm = getSupportFragmentManager();
                     FragmentTransaction ft = fm.beginTransaction();
